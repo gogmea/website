@@ -5,16 +5,19 @@ import Feature from './components/Feature';
 import Data from './components/Data';
 import Solution from './components/Solution';
 import Resource from './components/Resource';
+import ComplexDialog from './components/ComplexDialog';
 
 export default function HomePage() {
   return (
     <div>
       <Banner />
-      <Introduction />
+      <Resource />
+
+      {/* <Introduction /> */}
       <Feature />
       {/* <Data /> */}
       {/* <Solution /> */}
-      {/* <Resource /> */}
+      <ComplexDialog/>
     </div>
   );
 }

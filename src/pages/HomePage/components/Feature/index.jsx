@@ -1,30 +1,31 @@
-import React from 'react';
-import { Grid } from '@alifd/next';
-import styles from './index.module.scss';
+import React from "react";
+import { Grid } from "@alifd/next";
+import styles from "./index.module.scss";
 
 const { Row, Col } = Grid;
 
 const dataSource = [
   {
-    title: '标题简介',
-    pic: require('./images/img1.png'),
-    desc: '这里是相关的功能介绍和描述',
+    title: "快速记录",
+    pic: require("./images/img1.png"),
+    desc:
+      "随时记录，图片，视频文本等多种记录方式，认真记录宝宝每次成长"
   },
   {
-    title: '标题简介',
-    pic: require('./images/img3.png'),
-    desc: '这这里是相关的功能介绍和描述',
+    title: "安全无忧",
+    pic: require("./images/img3.png"),
+    desc: "内容加密存储，安全无忧，保证隐私安全"
   },
   {
-    title: '标题简介',
-    pic: require('./images/img4.png'),
-    desc: '这这里是相关的功能介绍和描述',
+    title: "一键生成",
+    pic: require("./images/img4.png"),
+    desc: "一键生成宝宝成长日记，用视频串联成长记忆"
   },
   {
-    title: '标题简介',
-    pic: require('./images/img2.png'),
-    desc: '这这里是相关的功能介绍和描述',
-  },
+    title: "多人共享",
+    pic: require("./images/img2.png"),
+    desc: "关爱无距离，邀请亲友关注，与长辈一起共享成长的快乐"
+  }
 ];
 
 export default function Feature() {
