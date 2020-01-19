@@ -1,1 +1,1 @@
-export default  'http://baidu.com';
+export default  '';
