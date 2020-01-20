@@ -6,25 +6,25 @@ const { Row, Col } = Grid;
 
 const dataSource = [
   {
-    title: "快速记录",
+    title: "记录",
     pic: require("./images/img1.png"),
-    desc:
-      "随时记录，图片，视频文本等多种记录方式，认真记录宝宝每次成长"
+    desc: "创建宝宝的专属成长空间，记录宝宝成长。"
   },
   {
-    title: "安全无忧",
+    title: "共享",
     pic: require("./images/img3.png"),
-    desc: "内容加密存储，安全无忧，保证隐私安全"
+    desc: "添加家人，共享成长。即便远隔千里，也不错过宝宝成长瞬间。"
   },
   {
-    title: "一键生成",
+    title: "回顾",
     pic: require("./images/img4.png"),
-    desc: "一键生成宝宝成长日记，用视频串联成长记忆"
+    desc:
+      "从宝宝出生到第一次喊爸爸妈妈，在西柚宝贝，回顾宝宝成长路上的每个第一次。"
   },
   {
-    title: "多人共享",
+    title: "免费",
     pic: require("./images/img2.png"),
-    desc: "关爱无距离，邀请亲友关注，与长辈一起共享成长的快乐"
+    desc: "西柚宝贝提供免费存储服务，存储空间不限。"
   }
 ];
 

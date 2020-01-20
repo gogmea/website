@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './index.module.scss';
+import React from "react";
+import styles from "./index.module.scss";
 
 export default function Resource() {
   return (
@@ -10,9 +10,8 @@ export default function Resource() {
           <div className={styles.infoBox}>
             <h6 className={styles.subTitle}>初心</h6>
             <p className={styles.desc}>
-              宝宝总是在不经意间长大，稍不留神就会错过他们的成长瞬间，西柚宝贝是一款专属宝爸宝妈的记录app，记录宝宝成长路上的大事小情，永久存储美好成长记忆。西柚宝贝，因为爱你，所以不能错过你的每次成长。
+              宝宝总是在不经意间长大，稍不留神就会错过他们的成长瞬间。西柚宝贝是一款专属宝爸宝妈的记录App。在这里你可以：创建宝宝专属成长空间，存储宝宝成长图片、视频和数据，记录宝宝成长路上的大事小情，与家人共享宝宝成长记忆。
             </p>
-            
           </div>
           <img
             src="https://gw.alipayobjects.com/zos/rmsportal/VvGnZYfUXGmgkJklZRDH.png_.webp"
@@ -30,21 +29,18 @@ export default function Resource() {
               />
             </div>
             <div className={styles.infoBox}>
-              <h6 className={styles.subTitle}>快速记录</h6>
+              <h6 className={styles.subTitle}>成长无小事</h6>
               <p className={styles.desc}>
-                随时记录，图片，视频文本等多种记录方式，认真记录宝宝每次成长。
-                含有丰富小部件，迅速记录不错过。
+                宝宝每次成长的背后，都藏着爸爸妈妈的默默付出，宝宝的每件事，都是成长路上的大事。在西柚宝贝，记录宝宝的每一次成长，监测宝宝各项生长数据指标。因为爱你，所以不能错过你的每次成长。
               </p>
-            
             </div>
           </div>
           <div className={styles.bottomItemBodyitemBody}>
             <div className={styles.infoBox}>
-              <h6 className={styles.subTitle}>安全无忧</h6>
+              <h6 className={styles.subTitle}>安全承诺</h6>
               <p className={styles.desc}>
-                内容加密存储，安全无忧，保证隐私安全，免费使用，更轻松。
+                一对一专属私密图库，宝宝隐私绝不外泄。
               </p>
-            
             </div>
             <div className={styles.itemBodyImg}>
               <img
